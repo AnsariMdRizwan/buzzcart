@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.DS_Store
+
+# Log files
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+pm2.log
+pm2-error.log
+
+# Build files
+dist/
+build/
+coverage/
+
+# Database-related files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sql
+
+# Temporary files
+tmp/
+*.swp
+*.swo
+*.swn
+
+# PayPal and Cloudinary configuration files
+paypal-config.json
+cloudinary-config.json
+
+# VS Code settings (optional)
+.vscode/
