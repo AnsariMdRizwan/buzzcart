@@ -65,7 +65,7 @@ const loginUser = async (req, res) => {
         userName: checkUser.userName
       }, process.env.JWT_SECRET, { expiresIn: '1h' })
 
-    res.cookie('token', token, { httpOnly: true, secure: false }).status(200).json({
+    res.cookie('token', token, { httpOnly: true, secure: true, sameSite: "None" }).status(200).json({
       success: true,
       message: "Logged in successfully",
       user: {
