@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem}
+}
+
+
+.react-hot-toast {
+  font-size: 18px; /* Set your desired global font size */
+}
+
+
