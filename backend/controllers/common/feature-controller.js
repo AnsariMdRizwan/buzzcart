@@ -14,7 +14,6 @@ const addFeatureImage = async (req, res) => {
             data: featureImage
         })
 
-
     } catch (e) {
         res.status(500).json({
             success: false,
